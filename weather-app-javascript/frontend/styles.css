@@ -1,0 +1,170 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-size: cover;
+  background-image: url("https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+#card {
+  display: flex;
+  align-items: center;
+  height: auto;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+#search {
+  width: 40vw;
+  height: 3.5vh;
+  background-color: rgb(50, 50, 50, 85%);
+  color: white;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#search:hover {
+    background-color: rgb(55, 55, 55, 65%);
+}
+
+#show_card {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 355px;
+  height: auto;
+  margin: 50px auto;
+  border-radius: 9px;
+  padding: 25px;
+  padding-right: 30px;
+  box-shadow: 0px 31px 35px -26px #080c21;
+  background-size: cover;
+  background-image: url("https://www.mmppicture.co.in/wp-content/uploads/2020/08/Blur-Background-16-768x968.jpg");
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 6em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; 
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+label {
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+    text-shadow: 1px 1px black;
+}
+
+.column-1 {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 10px;
+  justify-content: flex-start;
+}
+
+.column-2 {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#day {
+  font-size: small;
+}
+
+#country {
+  font-size: medium;
+}
+
+#temp {
+  font-size: 70px;
+}
+
+img.weather-icon {
+  float: right;
+  width: 84px;
+  height: 84px;
+}
+
+#text-cloud {
+  float: right;
+  font-size: medium;
+}
+
+div.cityList:hover {
+  background-color: rgb(130, 80, 190, 0.2);
+}
+
+.isFav,
+.notFav {
+  cursor: pointer;
+}
+
+div.cityList {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 0 0.5em;
+  background-size: cover;
+  background-image: url("https://images.pexels.com/photos/7634436/pexels-photo-7634436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  padding: 0.25em 0.5em;
+  box-sizing: border-box;
+  width: 37vw;
+  height: 3.5vh;
+  background-color: black !important;
+  color: white;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#favourites {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 355px;
+  height: auto;
+  margin: 50px auto;
+  border-radius: 9px;
+  padding: 25px;
+  padding-right: 30px;
+  box-shadow: 0px 31px 35px -26px #080c21;
+  background-size: cover;
+  background-image: url("https://images.pexels.com/photos/7634436/pexels-photo-7634436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  color: black;
+  position: relative;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 24px;
+    text-shadow: 2px 2px black;
+    color: white;
+    cursor: pointer;
+}
